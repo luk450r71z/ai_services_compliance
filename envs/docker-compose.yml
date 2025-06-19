@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ai-agent:
+    build:
+      context: ..
+      dockerfile: envs/Dockerfile
+    container_name: ai-image-analysis-agent
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      # Mount images directory for input
+      - ../assets/images:/app/assets/images
+      # Mount data directory for output persistence
+      - ../envs/data:/app/envs/data
+    restart: unless-stopped
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    driver: bridge 

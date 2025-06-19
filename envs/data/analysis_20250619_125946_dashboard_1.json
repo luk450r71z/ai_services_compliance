@@ -1,0 +1,23 @@
+{
+  "id": "analysis_20250619_125946_dashboard_1",
+  "file": "dashboard_1.jpg",
+  "content": {
+    "estado_general": "advertencia",
+    "metricas_principales": [
+      "ELB service status",
+      "Healthy hosts count",
+      "Unhealthy hosts count",
+      "Requests per second",
+      "Backend response latency"
+    ],
+    "anomalias_detectadas": [
+      "Unhealthy hosts count es alto (11K hosts)",
+      "Picos en ELB HTTP 4xx errors",
+      "Picos en ELB HTTP 5xx errors",
+      "Backend Connection Errors elevados"
+    ],
+    "informacion_relevante": "El número de hosts no saludables es significativamente alto, lo que podría indicar problemas en el sistema. Los errores 4xx y 5xx también muestran picos que deben ser investigados. La latencia de respuesta del backend es baja, lo cual es positivo.",
+    "resumen": "El sistema está en un estado de advertencia debido a un alto número de hosts no saludables y picos en errores HTTP. Se recomienda investigar las causas de los errores y la salud de los hosts para evitar un deterioro mayor."
+  },
+  "datetime": "2025-06-19T12:59:46.728783"
+}
