@@ -1,0 +1,22 @@
+{
+  "id": "analysis_20250619_150417_dashboard_1",
+  "file": "dashboard_1.jpg",
+  "content": {
+    "estado_general": "advertencia",
+    "metricas_principales": [
+      "ELB service status",
+      "Healthy hosts count",
+      "Unhealthy hosts count",
+      "Requests per second",
+      "Backend response latency"
+    ],
+    "anomalias_detectadas": [
+      "Alto número de hosts no saludables (11K)",
+      "Errores HTTP 4xx y 5xx elevados",
+      "Longitud de cola de espera máxima alta"
+    ],
+    "informacion_relevante": "El sistema muestra un número significativo de hosts no saludables y errores HTTP, lo que indica problemas potenciales en el servicio. La latencia de respuesta del backend es baja, lo cual es positivo.",
+    "resumen": "El dashboard indica un estado de advertencia debido a un alto número de hosts no saludables y errores HTTP. Aunque la latencia es baja, se deben investigar los problemas de salud de los hosts y los errores para evitar un estado crítico."
+  },
+  "datetime": "2025-06-19T15:04:17.579205"
+}
