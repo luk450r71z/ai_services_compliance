@@ -1,0 +1,340 @@
+{
+  "chart_analysis": [
+    {
+      "chart_id": "chart_1",
+      "name": "AccessDenied",
+      "analysis": "Recent values around 0-10",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_2",
+      "name": "ConsoleLogin",
+      "analysis": "Recent values around 0-10",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_3",
+      "name": "IAMActivity",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_4",
+      "name": "MFAChanges",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_5",
+      "name": "SSHChanges",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_6",
+      "name": "SecuritygroupChanges",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_7",
+      "name": "ConsoleLoginWithoutMFA",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_8",
+      "name": "SSM Activity",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_9",
+      "name": "RootConsoleLogin",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_10",
+      "name": "UnauthorizedAPICalls",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_11",
+      "name": "FailedConsoleLogin",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_12",
+      "name": "CloudtrailChanges",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_13",
+      "name": "Critical vulns evolution",
+      "analysis": "Recent values around 10",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_14",
+      "name": "High vulns evolution",
+      "analysis": "Recent values around 24",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_17",
+      "name": "WAF - Blocked Requests",
+      "analysis": "Recent values around 0-500",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 1000
+      },
+      "deviation": 5,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_18",
+      "name": "WAF - Requests",
+      "analysis": "Recent values around 0-1000",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 3000
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_21",
+      "name": "HTTP 5xx Responses - Target",
+      "analysis": "Recent values around 145",
+      "severity": "high",
+      "normal_range": {
+        "min": 0,
+        "max": 50
+      },
+      "deviation": 95,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_22",
+      "name": "CPU by service",
+      "analysis": "Recent values around 60%",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_23",
+      "name": "Memory by service",
+      "analysis": "Recent values around 60%",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 5,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_24",
+      "name": "ECS Services",
+      "analysis": "Recent values around 100%",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_25",
+      "name": "ALB Request Count",
+      "analysis": "Recent values around 10",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 100
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_26",
+      "name": "ALB Response Time",
+      "analysis": "Recent values around 0.5",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 5
+      },
+      "deviation": 0.5,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_27",
+      "name": "synthetic browser test status summary",
+      "analysis": "Recent values around 5",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 10
+      },
+      "deviation": 0,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_28",
+      "name": "Average test duration by browser type",
+      "analysis": "Recent values around 30",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 60
+      },
+      "deviation": 5,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_15",
+      "name": "Unknowns",
+      "analysis": "Recent values around 10",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_16",
+      "name": "WAF - Allowed Requests",
+      "analysis": "Recent values around 200",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_19",
+      "name": "HTTP 2xx Responses - Target",
+      "analysis": "Recent values around 26.67k",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 40000
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    },
+    {
+      "chart_id": "chart_20",
+      "name": "HTTP 4xx Responses - Target",
+      "analysis": "Recent values around 0",
+      "severity": "normal",
+      "normal_range": {
+        "min": 0,
+        "max": 400
+      },
+      "deviation": 10,
+      "anormal_peaks": []
+    }
+  ]
+}

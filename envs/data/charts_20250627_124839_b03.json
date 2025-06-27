@@ -1,0 +1,396 @@
+{
+  "charts": [
+    {
+      "chart_id": "chart_1",
+      "name": "AccessDenied",
+      "pix_position": {
+        "x1": 20,
+        "y1": 120,
+        "x2": 300,
+        "y2": 250
+      },
+      "row_col_position": {
+        "row": 1,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_2",
+      "name": "ConsoleLogin",
+      "pix_position": {
+        "x1": 320,
+        "y1": 120,
+        "x2": 600,
+        "y2": 250
+      },
+      "row_col_position": {
+        "row": 1,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_3",
+      "name": "IAMActivity",
+      "pix_position": {
+        "x1": 620,
+        "y1": 120,
+        "x2": 900,
+        "y2": 250
+      },
+      "row_col_position": {
+        "row": 1,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_4",
+      "name": "MFAChanges",
+      "pix_position": {
+        "x1": 20,
+        "y1": 260,
+        "x2": 300,
+        "y2": 390
+      },
+      "row_col_position": {
+        "row": 2,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_5",
+      "name": "SSHChanges",
+      "pix_position": {
+        "x1": 320,
+        "y1": 260,
+        "x2": 600,
+        "y2": 390
+      },
+      "row_col_position": {
+        "row": 2,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_6",
+      "name": "SecuritygroupChanges",
+      "pix_position": {
+        "x1": 620,
+        "y1": 260,
+        "x2": 900,
+        "y2": 390
+      },
+      "row_col_position": {
+        "row": 2,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_7",
+      "name": "ConsoleLoginWithoutMFA",
+      "pix_position": {
+        "x1": 20,
+        "y1": 400,
+        "x2": 300,
+        "y2": 530
+      },
+      "row_col_position": {
+        "row": 3,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_8",
+      "name": "SSM Activity",
+      "pix_position": {
+        "x1": 320,
+        "y1": 400,
+        "x2": 600,
+        "y2": 530
+      },
+      "row_col_position": {
+        "row": 3,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_9",
+      "name": "RootConsoleLogin",
+      "pix_position": {
+        "x1": 620,
+        "y1": 400,
+        "x2": 900,
+        "y2": 530
+      },
+      "row_col_position": {
+        "row": 3,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_10",
+      "name": "UnauthorizedAPICalls",
+      "pix_position": {
+        "x1": 20,
+        "y1": 540,
+        "x2": 300,
+        "y2": 670
+      },
+      "row_col_position": {
+        "row": 4,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_11",
+      "name": "FailedConsoleLogin",
+      "pix_position": {
+        "x1": 320,
+        "y1": 540,
+        "x2": 600,
+        "y2": 670
+      },
+      "row_col_position": {
+        "row": 4,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_12",
+      "name": "CloudtrailChanges",
+      "pix_position": {
+        "x1": 620,
+        "y1": 540,
+        "x2": 900,
+        "y2": 670
+      },
+      "row_col_position": {
+        "row": 4,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_13",
+      "name": "Critical vulns evolution",
+      "pix_position": {
+        "x1": 20,
+        "y1": 680,
+        "x2": 300,
+        "y2": 810
+      },
+      "row_col_position": {
+        "row": 5,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_14",
+      "name": "High vulns evolution",
+      "pix_position": {
+        "x1": 320,
+        "y1": 680,
+        "x2": 600,
+        "y2": 810
+      },
+      "row_col_position": {
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_15",
+      "name": "Unknowns",
+      "pix_position": {
+        "x1": 620,
+        "y1": 680,
+        "x2": 900,
+        "y2": 810
+      },
+      "row_col_position": {
+        "row": 5,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_16",
+      "name": "WAF - Allowed Requests",
+      "pix_position": {
+        "x1": 20,
+        "y1": 820,
+        "x2": 300,
+        "y2": 950
+      },
+      "row_col_position": {
+        "row": 6,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_17",
+      "name": "WAF - Blocked Requests",
+      "pix_position": {
+        "x1": 320,
+        "y1": 820,
+        "x2": 600,
+        "y2": 950
+      },
+      "row_col_position": {
+        "row": 6,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_18",
+      "name": "WAF - Requests",
+      "pix_position": {
+        "x1": 620,
+        "y1": 820,
+        "x2": 900,
+        "y2": 950
+      },
+      "row_col_position": {
+        "row": 6,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_19",
+      "name": "HTTP 2xx Responses - Target",
+      "pix_position": {
+        "x1": 20,
+        "y1": 960,
+        "x2": 300,
+        "y2": 1090
+      },
+      "row_col_position": {
+        "row": 7,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_20",
+      "name": "HTTP 4xx Responses - Target",
+      "pix_position": {
+        "x1": 320,
+        "y1": 960,
+        "x2": 600,
+        "y2": 1090
+      },
+      "row_col_position": {
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_21",
+      "name": "HTTP 5xx Responses - Target",
+      "pix_position": {
+        "x1": 620,
+        "y1": 960,
+        "x2": 900,
+        "y2": 1090
+      },
+      "row_col_position": {
+        "row": 7,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_22",
+      "name": "CPU by service",
+      "pix_position": {
+        "x1": 20,
+        "y1": 1100,
+        "x2": 300,
+        "y2": 1230
+      },
+      "row_col_position": {
+        "row": 8,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_23",
+      "name": "Memory by service",
+      "pix_position": {
+        "x1": 320,
+        "y1": 1100,
+        "x2": 600,
+        "y2": 1230
+      },
+      "row_col_position": {
+        "row": 8,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_24",
+      "name": "ECS Services",
+      "pix_position": {
+        "x1": 620,
+        "y1": 1100,
+        "x2": 900,
+        "y2": 1230
+      },
+      "row_col_position": {
+        "row": 8,
+        "column": 3
+      }
+    },
+    {
+      "chart_id": "chart_25",
+      "name": "ALB Request Count",
+      "pix_position": {
+        "x1": 20,
+        "y1": 1240,
+        "x2": 300,
+        "y2": 1370
+      },
+      "row_col_position": {
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_26",
+      "name": "ALB Response Time",
+      "pix_position": {
+        "x1": 320,
+        "y1": 1240,
+        "x2": 600,
+        "y2": 1370
+      },
+      "row_col_position": {
+        "row": 9,
+        "column": 2
+      }
+    },
+    {
+      "chart_id": "chart_27",
+      "name": "synthetic browser test status summary",
+      "pix_position": {
+        "x1": 20,
+        "y1": 1380,
+        "x2": 300,
+        "y2": 1510
+      },
+      "row_col_position": {
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "chart_id": "chart_28",
+      "name": "Average test duration by browser type",
+      "pix_position": {
+        "x1": 320,
+        "y1": 1380,
+        "x2": 600,
+        "y2": 1510
+      },
+      "row_col_position": {
+        "row": 10,
+        "column": 2
+      }
+    }
+  ]
+}
